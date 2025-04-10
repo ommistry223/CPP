@@ -17,4 +17,5 @@ int main() {
         cout << endl;
     }
     return 0;
-}
+}   
+// This code prints a pattern based on the input number of rows. The pattern consists of stars and spaces, forming a specific shape. The logic checks for certain conditions to determine where to print stars and where to print spaces.
