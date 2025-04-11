@@ -40,7 +40,7 @@ int main()
     cin>>n;
     student s[n];
     
-    for(int i=0; i<n; i++)
+    for(int i=0; i<n; i++) //hi
     {
         s[i].getdata();
     }
