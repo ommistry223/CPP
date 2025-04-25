@@ -4,14 +4,14 @@ using namespace std;
 int main()
 {
     int n;
-    cout << "Enter the size of the array: ";
+    cout << "Enter the size: ";
     cin >> n;
 
-    for(int i=1;i<=n;i++)
+    for(int i=1; i<=n; i++)
     {
-        for(int j=1;j<=n;j++)
+        for(int j=1; j<=n; j++)
         {
-            if(j==1 && i!=1 && i!=n || (i==1 && j!=1) || i==n && j!=1 )
+            if(i==1 || j==1 || i==n || j==n)
             {
                 cout << "* ";
             }
@@ -20,7 +20,8 @@ int main()
                 cout << "  ";
             }
         }
-        cout<<endl;
+        cout << endl;
     }
     return 0;
 }
+
